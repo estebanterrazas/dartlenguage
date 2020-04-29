@@ -14,6 +14,15 @@ class Persona{
 
   
   //Constructores
+//  Persona(int edad, String nombre){
+
+//    this.edad = edad;
+//    this.nombre = nombre;
+
+
+//  }
+Persona({this.edad, this.nombre});
+
   //Metodos
   @override
   String toString() => '$nombre $edad $_bio';
